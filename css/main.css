@@ -1,0 +1,155 @@
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+.btn {
+    padding: 20px 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.btn-sm {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.btn-primary {
+    background-color: #E5383B;
+    font-weight: 700;
+}
+.btn-primary:hover {
+    background-color: #BA181B;
+}
+.btn-outline {
+    border: 2px solid #ffffff;
+    background-color: transparent;
+}
+.btn-outline:hover {
+    border: 2px #d9d9d9;
+    color: #d9d9d9;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.overtitle {
+    font-size: 16px;
+    line-height: 24px;
+    color: #E5383B;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 16px;
+}
+.title {
+    color: #0B090A;
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+#header-container {
+    background-color: #0B090A;
+}
+.header {
+    padding: 24px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero-container {
+    background-color: #0B090A;
+    color: #ffffff;
+    display: flex;
+    padding: 0;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.hero-img {
+    align-self: flex-end;
+    padding: 0 72px 0 0;
+}
+.hero-img img {
+    width: 100%;
+    vertical-align: bottom;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 96px 0 96px 72px;
+}
+.hero-text__title {
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+}
+.hero-text__subtitle {
+    font: size 20px;
+    line-height: 28px;
+    max-width: 450px;
+}
+.services {
+    padding: 96px 72px;
+}
+.services-list {
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+}
+.services-card {
+    background-color: #F5F3F4;
+    border: 2px solid #d3d3d3;
+}
+.services-card img {
+    width: 100%;
+}
+.services-card__text {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.services-card__text h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.services-card__text p {
+    font-size: 16px;
+    line-height: 24px;
+}
+#location-container {
+    background-color: #F5F3F4;
+}
+#location-container .location {
+    padding: 96px 72px 48px;
+}
+#location-container address {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+#footer-container {
+    background-color: #0B090A;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 72px;
+}
+.footer-logocopy {
+    color: #ffffff;
+}
+.footer-logocopy {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
