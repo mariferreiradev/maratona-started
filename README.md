@@ -1,7 +1,7 @@
 
 <br />
 <p align="center">
-  <h1 align="center">Maratona starter - Sirbaber</h1>
+  <h1 align="center">Maratona starter - Sirbarber</h1>
 
   <p align="center">
     Projeto criado à partir de um evento da CODAR.me, onde foi desenvolvido a landing page de uma barbearia. 
